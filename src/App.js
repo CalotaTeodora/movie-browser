@@ -1,4 +1,4 @@
-//TODO: Update the new version on Github
+//TODO: Resolve the error with the nav bar
 
 import "./App.css";
 import { useState, useEffect } from "react";

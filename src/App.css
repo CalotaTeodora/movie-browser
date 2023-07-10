@@ -29,3 +29,14 @@
   background-position: center center;
   opacity: 0.4;
 }
+
+@media(max-width: 767px) {
+  .container {
+      width: auto;
+  }
+}
+
+.woocommerce input[type=search] {
+  height: 20px;
+  width: 150px;
+}

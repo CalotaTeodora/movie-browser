@@ -20,17 +20,53 @@ const Navbar = ({ searchText, setSearchText, inputText, setInputText }) => {
           <Link class="navbar-brand" to="/">
             Navbar
           </Link>
-          <button
+          <div
             class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
+            // type="button"
+            // data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            // aria-expanded="true"
+            // aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-2">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <Link class="nav-link" to="/about">
+                        About
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <form className="d-flex">
+                        <input
+                          id="searchInput"
+                          className="form-control me-2 woocommerce"
+                          type="search"
+                          placeholder="Search"
+                          aria-label="Search"
+                          // value={searchText}
+                          value={inputText}
+                          // onChange={updateSearchText}
+                          onChange={updateInputText}
+                        />
+                        <button
+                          className="btn btn-outline-success"
+                          type="submit"
+                          onClick={searchSubmit}
+                        >
+                          Search
+                        </button>
+                      </form>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
