@@ -18,7 +18,7 @@ const Navbar = ({ searchText, setSearchText, inputText, setInputText }) => {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <Link class="navbar-brand" to="/">
-            Navbar
+            MovieBrowser
           </Link>
           <div
             class="navbar-toggler"

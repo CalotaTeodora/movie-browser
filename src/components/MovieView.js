@@ -49,7 +49,7 @@ const MovieView = () => {
                 )}
               </div>
               <div className="col-md-9">
-                <h2>{movieDetails.original_title}</h2>
+                <h2 className="display-2">{movieDetails.original_title}</h2>
                 <p className="lead">{movieDetails.overview}</p>
               </div>
             </div>
