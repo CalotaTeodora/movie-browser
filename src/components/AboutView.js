@@ -11,9 +11,9 @@ const AboutView = () => {
             <p className="lead">
               Calota Maria Teodora. Atestat Informatica clasa a 12 a B. Technologia folosita: React.
             </p>
-            </div>
           </div>
         </div>
+      </div>
     </>
   );
 };
