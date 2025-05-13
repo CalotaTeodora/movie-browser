@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+// import { Link } from "react-router-dom";
 
 const AboutView = () => {
   return (
@@ -8,8 +9,18 @@ const AboutView = () => {
         <div className="row">
           <div className="col-8 offset-lg-2 my-5">
             <p className="lead">
-              Calota Maria Teodora. Atestat Informatica clasa a 12 a B. Technologia folosita: React.
+              My name is Teodora. I'm 17 years old. I like to code from a young
+              age. I started at 10 years old. Since then I'm thinkering with
+              different project. This is my first big project on web development
+              aerea. I'm so happy about this. If you want to contact me, please
+              feel free to follow on :
             </p>
+            <div
+              class="btn-toolbar"
+              role="toolbar"
+              aria-label="Toolbar with button groups"
+            >
+            </div>
           </div>
         </div>
       </div>
