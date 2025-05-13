@@ -14,7 +14,6 @@ const AboutView = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
