@@ -9,7 +9,11 @@ const AboutView = () => {
         <div className="row">
           <div className="col-8 offset-lg-2 my-5">
             <p className="lead">
-             Calota Teodora. Clasa a 12 a B. Technologia folosita: React
+            Numele elevului:Calota Teodora. 
+            Clasa a 12 a B. 
+            Profesor Coordonator: Mihaela Runceanu. 
+            Liceul: Colegiul National Ecaterina Teodoroiu. 
+            Technologia folosita: React
             </p>
             <div
               class="btn-toolbar"
